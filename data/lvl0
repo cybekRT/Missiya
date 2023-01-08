@@ -1,0 +1,7 @@
+background 0
+player 0 -64
+gravity 4
+
+floor 0 0 180 320 8
+
+teleport_b 300 180 lvl1

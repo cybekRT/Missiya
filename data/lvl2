@@ -1,0 +1,16 @@
+background 0
+player 0 -64
+gravity 7
+
+floor 0 0 180 80 8
+
+floor 0 96 165 16 8
+floor 0 80 150 80 8
+
+floor 0 176 135 16 8
+floor 0 160 120 80 8
+
+floor 0 256 105 16 8
+floor 0 240 90 80 8
+
+teleport_b 300 90 lvl3

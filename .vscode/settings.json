@@ -1,0 +1,27 @@
+{
+	"files.associations": {
+		"dos.h": "c",
+		"conio.h": "c",
+		"stdlib.h": "c",
+		"cstddef": "c",
+		"type_traits": "c",
+		"cstdio": "cpp",
+		"stdio.h": "c",
+		"i86.h": "c",
+		"inttypes.h": "c",
+		"stdint.h": "c",
+		"cstdint": "cpp",
+		"array": "cpp",
+		"deque": "cpp",
+		"string": "cpp",
+		"unordered_map": "cpp",
+		"vector": "cpp",
+		"string_view": "cpp",
+		"initializer_list": "cpp",
+		"memory_resource": "c",
+		"timer.h": "c",
+		"log.h": "c",
+		"string.h": "c",
+		"robot.h": "c"
+	}
+}

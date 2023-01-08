@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "includePath": [
+                "D:\\Programs\\Watcom\\h"
+            ],
+            "intelliSenseMode": "windows-msvc-x64",
+            "compilerPath": "D:\\Programs\\MinGW\\bin\\gcc.exe",
+            "cStandard": "gnu17",
+            "cppStandard": "gnu++17"
+        }
+    ],
+    "version": 4
+}

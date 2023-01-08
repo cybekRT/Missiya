@@ -1,0 +1,11 @@
+background 1
+player_b 90 180
+gravity 4
+
+floor 1 0 180 320 8
+
+computer_b 0 180 10
+
+robot_b 150 180 280 180 1 2
+
+teleport_b 300 180 lvl6

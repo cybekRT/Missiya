@@ -1,0 +1,6 @@
+/*.exe
+/*.obj
+/*.err
+/*.map
+/data/*.bin
+/utils/*.exe

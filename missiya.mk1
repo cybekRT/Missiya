@@ -1,0 +1,62 @@
+!define BLANK ""
+D:\Workspace\LDCompo52\Game.obj : D:\Workspace\LDCompo52\src\Game.c .AUTODEP&
+END
+ @D:
+ cd D:\Workspace\LDCompo52
+ *wcc386 src\Game.c -i="D:\Programs\Watcom/h" -w4 -e25 -zq -od -d2 -6r -bt=d&
+os -fo=.obj -mf
+
+D:\Workspace\LDCompo52\Keyboard.obj : D:\Workspace\LDCompo52\src\Keyboard.c &
+.AUTODEPEND
+ @D:
+ cd D:\Workspace\LDCompo52
+ *wcc386 src\Keyboard.c -i="D:\Programs\Watcom/h" -w4 -e25 -zq -od -d2 -6r -&
+bt=dos -fo=.obj -mf
+
+D:\Workspace\LDCompo52\Log.obj : D:\Workspace\LDCompo52\src\Log.c .AUTODEPEN&
+D
+ @D:
+ cd D:\Workspace\LDCompo52
+ *wcc386 src\Log.c -i="D:\Programs\Watcom/h" -w4 -e25 -zq -od -d2 -6r -bt=do&
+s -fo=.obj -mf
+
+D:\Workspace\LDCompo52\main.obj : D:\Workspace\LDCompo52\src\main.c .AUTODEP&
+END
+ @D:
+ cd D:\Workspace\LDCompo52
+ *wcc386 src\main.c -i="D:\Programs\Watcom/h" -w4 -e25 -zq -od -d2 -6r -bt=d&
+os -fo=.obj -mf
+
+D:\Workspace\LDCompo52\Sound.obj : D:\Workspace\LDCompo52\src\Sound.c .AUTOD&
+EPEND
+ @D:
+ cd D:\Workspace\LDCompo52
+ *wcc386 src\Sound.c -i="D:\Programs\Watcom/h" -w4 -e25 -zq -od -d2 -6r -bt=&
+dos -fo=.obj -mf
+
+D:\Workspace\LDCompo52\Timer.obj : D:\Workspace\LDCompo52\src\Timer.c .AUTOD&
+EPEND
+ @D:
+ cd D:\Workspace\LDCompo52
+ *wcc386 src\Timer.c -i="D:\Programs\Watcom/h" -w4 -e25 -zq -od -d2 -6r -bt=&
+dos -fo=.obj -mf
+
+D:\Workspace\LDCompo52\Video.obj : D:\Workspace\LDCompo52\src\Video.c .AUTOD&
+EPEND
+ @D:
+ cd D:\Workspace\LDCompo52
+ *wcc386 src\Video.c -i="D:\Programs\Watcom/h" -w4 -e25 -zq -od -d2 -6r -bt=&
+dos -fo=.obj -mf
+
+D:\Workspace\LDCompo52\missiya.exe : D:\Workspace\LDCompo52\Game.obj D:\Work&
+space\LDCompo52\Keyboard.obj D:\Workspace\LDCompo52\Log.obj D:\Workspace\LDC&
+ompo52\main.obj D:\Workspace\LDCompo52\Sound.obj D:\Workspace\LDCompo52\Time&
+r.obj D:\Workspace\LDCompo52\Video.obj .AUTODEPEND
+ @D:
+ cd D:\Workspace\LDCompo52
+ @%write missiya.lk1 FIL Game.obj,Keyboard.obj,Log.obj,main.obj,Sound.obj,Ti&
+mer.obj,Video.obj
+ @%append missiya.lk1 
+ *wlink name missiya d all sys dos4g op m op maxe=25 op q op symf @missiya.l&
+k1
+
