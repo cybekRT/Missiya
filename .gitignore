@@ -4,3 +4,5 @@
 /*.map
 /data/*.bin
 /utils/*.exe
+/Release
+/MISSIYA.LOG

@@ -796,8 +796,8 @@ void Game_Draw()
 		struct Image* img = robots[a].dir < 0 ? imgRobot[0] : imgRobot[1];
 		int sx = (robotFrame * robotWidth) % img->w;
 
-		Video_DrawRect(robots[a].posLeft.x, robots[a].posLeft.y, 1, robotHeight, 3);
-		Video_DrawRect(robots[a].posRight.x, robots[a].posRight.y, 1, robotHeight, 3);
+		// Video_DrawRect(robots[a].posLeft.x, robots[a].posLeft.y, 1, robotHeight, 3);
+		// Video_DrawRect(robots[a].posRight.x, robots[a].posRight.y, 1, robotHeight, 3);
 
 		Video_CopyPart(img, sx, 0, robotWidth, robotHeight, robots[a].pos.x, robots[a].pos.y);
 	}
